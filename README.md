@@ -10,7 +10,7 @@ You are on the data science team of a medical research company that’s interest
 
 You have been provided with raw data, so you’ll first need to process it to fit the machine learning models. You will use several clustering algorithms to explore whether the patients can be placed into distinct groups. Then, you’ll create a visualization to share your findings with your team and other key stakeholders.
 
-## Instructions
+## Procedure
 
 This activity is broken down into four parts:
 
@@ -51,9 +51,9 @@ Create an elbow plot to identify the best number of clusters. Make sure to do th
 
 * If possible, determine where the elbow of the plot is, and at which value of `k` it appears.
 
-### Part 4: Make a Recommendation
+## Analysis and Recommendations
 
-Based on your findings, write up a brief (one or two sentences) recommendation for your supervisor in your Jupyter Notebook. Can the patients be clustered? If so, into how many clusters?
+The t-SNE reduction did seem to provide between two and five clusters. According to our elbow curve above, the optimal number of clusters seems to be 2 or 3. For  𝑘=2 , the clusters seem a bit more prominent to me as those were the clusters I observed in the beginning. However, the elbow curve suggests that 3 clusters may be even better. Both results are plotted above.
 
 - - -
 
